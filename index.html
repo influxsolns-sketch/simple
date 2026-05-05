@@ -704,7 +704,7 @@ This website is not a portfolio. It’s a trail... Of places I’ve been, people
             carouselItems[currentSlide].classList.add('active');
         }
 
-        setInterval(nextSlide, 5000); // Change slide every 5 seconds
+        setInterval(nextSlide, 3000); // Change slide every 5 seconds
 
         // 3. Hero Text Cycler
         const cycleTexts = document.querySelectorAll('.cycle-text');
@@ -715,7 +715,7 @@ This website is not a portfolio. It’s a trail... Of places I’ve been, people
             currentTextIdx = (currentTextIdx + 1) % cycleTexts.length;
             cycleTexts[currentTextIdx].classList.add('active');
         }
-        setInterval(cycleHeroText, 3500);
+        setInterval(cycleHeroText, 2000);
 
         // 4. Scroll Observer for Fade-in Animations
         const observerOptions = {
